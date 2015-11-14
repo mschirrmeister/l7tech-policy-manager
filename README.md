@@ -42,6 +42,8 @@ The following process shows the build with using customized files.
 - Place the Info.plist file in the *package/macosx* with the name `Info.plist`
 - Build the app
 
+Command to build the app
+
     /Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/bin/javapackager -deploy \
       -native \
       -name "CA API Gateway Policy Manager" \
