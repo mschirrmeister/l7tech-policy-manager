@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>CA API Gateway Policy Manager</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<true/>
+	<key>CFBundleExecutable</key>
+	<string>CA API Gateway Policy Manager</string>
+	<key>CFBundleIconFile</key>
+	<string>CA API Gateway Policy Manager.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.l7tech.console</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>CA API Gateway Policy Manager</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>9.0.00</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>JVMInfo</key>
+	<dict>
+		<key>JRE</key>
+		<string>jdk1.7.0_51.jdk</string>
+		<key>MainClass</key>
+		<string>com.l7tech.console.Main</string>
+		<key>ClassPath</key>
+		<string>$JAVAROOT/Manager.jar</string>
+		<key>Arguments</key>
+		<array/>
+		<key>Properties</key>
+		<dict>
+			<key>apple.laf.useScreenMenuBar</key>
+			<string>true</string>
+			<key>apple.awt.showGrowBox</key>
+			<string>true</string>
+		</dict>
+		<key>VMOptions</key>
+		<array>
+			<string>-Xms256m</string>
+			<string>-Xmx512m</string>
+			<string>-Xss256k</string>
+			<string>-XX:PermSize=256M</string>
+			<string>-Xdock:icon=Contents/Resources/l7tech.icns</string>
+			<string>-server</string>
+			<string>-Dcom.l7tech.proxy.listener.maxthreads=300</string>
+			<string>-Dsun.net.inetaddr.ttl=10 </string>
+			<string>-Dnetworkaddress.cache.ttl=10 </string>
+			<string>-Dfile.encoding=UTF-8</string>
+			<string>-Duser.language=en </string>
+			<string>-Duser.country=US</string>
+		</array>
+		<key>WorkingDirectory</key>
+		<string>$JAVAROOT/</string>
+	</dict>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.7.4</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright 2015   CA Technologies</string>
+</dict>
+</plist>
